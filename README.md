@@ -50,11 +50,9 @@ This R project classifies breast cancer tumors as **Benign** or **Malignant** us
 ## Improving Model Performance
 • The standardized data was used to create new training and test sets.
 
-• Performance did not improve compared to the original min-max normalized version.
+• Performance did not improve compared to the original min-max normalized version with CrossTable().
 
 • Accuracy remained slightly lower across multiple values of k. 
-
-• Evaluation with CrossTable() showed that performance was comparable to or slightly better than the min-max normalized version.
 
 • Tested multiple k values (1, 5, 11, 15, 21, 27) to compare performance
 
