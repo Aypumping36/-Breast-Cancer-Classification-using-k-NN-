@@ -1,15 +1,11 @@
-# Breast Cancer Prediction using k-Nearest Neighbors (Hybrid Version)
-# Author: Ayomide Ibikunle
-# Dataset: Wisconsin Breast Cancer Data
 
 # ---------------------------
 # Load Libraries
 # ---------------------------
 library(ggplot2)
-library(dplyr)
 library(class)
 library(gmodels)
-library(randomForest)
+
 # ---------------------------
 # Step 1: Load and Prepare Data
 # ---------------------------
